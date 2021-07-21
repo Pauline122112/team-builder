@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { render } from 'react-dom'
-
+import './index.css'
 import App from './App'
 
 
@@ -67,8 +67,8 @@ function SimpleTeamForm() {
 
 render(
   <>
-    <SimpleTeamForm />
-    {/* <App /> */}
+    {/* <SimpleTeamForm /> */}
+    <App />
   </>
   , document.querySelector('#root')
 )
